@@ -2,7 +2,7 @@
 {
     using System;
     using System.ComponentModel.DataAnnotations.Schema;
-    using FitUp.ExercisesService.DataModel.Helpers.Models.Interfaces;
+    using FitUp.DataModel.Helpers.Models.Interfaces;
 
     public class ExerciseMuscleGroup : IInfoModel
     {

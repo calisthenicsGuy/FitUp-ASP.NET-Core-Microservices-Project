@@ -1,4 +1,4 @@
-﻿namespace FitUp.ExercisesService.DataModel.Helpers.Models.Interfaces
+﻿namespace FitUp.DataModel.Helpers.Models.Interfaces
 {
     public interface IInfoModel
     {

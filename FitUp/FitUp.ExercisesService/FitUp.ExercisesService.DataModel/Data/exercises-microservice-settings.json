@@ -1,6 +1,6 @@
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=.;Database=ExercisesService;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;Encrypt=False;",
-    "ExercisesServiceDbContextConnection": "Server=(localdb)\\mssqllocaldb;Database=ExercisesService_DbContext;Trusted_Connection=True;MultipleActiveResultSets=true"
+    "DbContextConnection": "Server=(localdb)\\mssqllocaldb;Database=ExercisesService_DbContext;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
 }

@@ -1,7 +1,7 @@
 ﻿namespace FitUp.ExercisesService.DataModel.Models
 {
     using System.ComponentModel.DataAnnotations;
-    using FitUp.ExercisesService.DataModel.Helpers.Models;
+    using FitUp.DataModel.Helpers.Models;
     using FitUp.ExercisesService.DataModel.Models.Enums;
 
     using static FitUp.ExercisesService.DataModel.Helpers.Constants.DataValidation.Exercise;

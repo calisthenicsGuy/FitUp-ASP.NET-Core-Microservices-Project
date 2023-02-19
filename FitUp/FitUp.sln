@@ -3,19 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp", "FitUp\FitUp.csproj", "{2DDBFC84-71F5-4420-90DE-0472F6D64632}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FitUp.ExercisesService", "FitUp.ExercisesService", "{3B9126E7-6150-40D5-9F04-5C59C7B1C46F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ExercisesService", "FitUp.ExercisesService\FitUp.ExercisesService\FitUp.ExercisesService.csproj", "{1617E7F2-B218-4FAB-BE52-B4AF3BD0A235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitUp.ExercisesService", "FitUp.ExercisesService\FitUp.ExercisesService\FitUp.ExercisesService.csproj", "{1617E7F2-B218-4FAB-BE52-B4AF3BD0A235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ExercisesService.DataModel", "FitUp.ExercisesService\FitUp.ExercisesService.DataModel\FitUp.ExercisesService.DataModel.csproj", "{5DB449F6-B3BE-4E09-A49F-CE059487D125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitUp.ExercisesService.DataModel", "FitUp.ExercisesService\FitUp.ExercisesService.DataModel\FitUp.ExercisesService.DataModel.csproj", "{5DB449F6-B3BE-4E09-A49F-CE059487D125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ExercisesService.DAL", "FitUp.ExercisesService\FitUp.ExercisesService.DAL\FitUp.ExercisesService.DAL.csproj", "{90986761-8C7D-40A9-B9E7-0B7B5790F131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitUp.ExercisesService.DAL", "FitUp.ExercisesService\FitUp.ExercisesService.DAL\FitUp.ExercisesService.DAL.csproj", "{90986761-8C7D-40A9-B9E7-0B7B5790F131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ExercisesService.Domain", "FitUp.ExercisesService\FitUp.ExercisesService.Domain\FitUp.ExercisesService.Domain.csproj", "{E185CCFD-5CD7-4561-B87F-76C652AA830F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitUp.ExercisesService.Domain", "FitUp.ExercisesService\FitUp.ExercisesService.Domain\FitUp.ExercisesService.Domain.csproj", "{E185CCFD-5CD7-4561-B87F-76C652AA830F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ExercisesService.UnitTests", "FitUp.ExercisesService\FitUp.ExercisesService.UnitTests\FitUp.ExercisesService.UnitTests.csproj", "{C54AF219-A30C-4CF3-8384-EB8133467A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitUp.ExercisesService.UnitTests", "FitUp.ExercisesService\FitUp.ExercisesService.UnitTests\FitUp.ExercisesService.UnitTests.csproj", "{C54AF219-A30C-4CF3-8384-EB8133467A31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FitUp", "FitUp", "{1CA959D9-AF2F-426A-9B7F-D66DC0E7BCFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp", "FitUp\FitUp\FitUp.csproj", "{03D4CB98-2489-4CB9-AA26-5D99A909B7C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FitUp.ProgramsService", "FitUp.ProgramsService", "{F55BC09E-D3AD-4466-8BED-7B7A0F3DA637}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FitUp.ProgressionService", "FitUp.ProgressionService", "{F31FD803-4856-45FE-95F7-43E7018B45F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ProgramsService", "FitUp.ProgramsService\FitUp.ProgramsService\FitUp.ProgramsService.csproj", "{05A23D75-901A-4084-AD96-79FD313721B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ProgressionService", "FitUp.ProgressionService\FitUp.ProgressionService\FitUp.ProgressionService.csproj", "{68E0CCF6-7378-452E-98EC-C7EF20AA4E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ProgramsService.DataModel", "FitUp.ProgramsService.DataModel\FitUp.ProgramsService.DataModel.csproj", "{7F467DBA-8653-4C35-B31B-CC2F40B48B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.DataModel", "FitUp.DataModel\FitUp.DataModel.csproj", "{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +37,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2DDBFC84-71F5-4420-90DE-0472F6D64632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DDBFC84-71F5-4420-90DE-0472F6D64632}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DDBFC84-71F5-4420-90DE-0472F6D64632}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DDBFC84-71F5-4420-90DE-0472F6D64632}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1617E7F2-B218-4FAB-BE52-B4AF3BD0A235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1617E7F2-B218-4FAB-BE52-B4AF3BD0A235}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1617E7F2-B218-4FAB-BE52-B4AF3BD0A235}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +57,26 @@ Global
 		{C54AF219-A30C-4CF3-8384-EB8133467A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C54AF219-A30C-4CF3-8384-EB8133467A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C54AF219-A30C-4CF3-8384-EB8133467A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D4CB98-2489-4CB9-AA26-5D99A909B7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D4CB98-2489-4CB9-AA26-5D99A909B7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D4CB98-2489-4CB9-AA26-5D99A909B7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D4CB98-2489-4CB9-AA26-5D99A909B7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A23D75-901A-4084-AD96-79FD313721B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A23D75-901A-4084-AD96-79FD313721B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A23D75-901A-4084-AD96-79FD313721B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A23D75-901A-4084-AD96-79FD313721B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E0CCF6-7378-452E-98EC-C7EF20AA4E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E0CCF6-7378-452E-98EC-C7EF20AA4E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E0CCF6-7378-452E-98EC-C7EF20AA4E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E0CCF6-7378-452E-98EC-C7EF20AA4E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F467DBA-8653-4C35-B31B-CC2F40B48B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F467DBA-8653-4C35-B31B-CC2F40B48B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F467DBA-8653-4C35-B31B-CC2F40B48B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F467DBA-8653-4C35-B31B-CC2F40B48B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +87,11 @@ Global
 		{90986761-8C7D-40A9-B9E7-0B7B5790F131} = {3B9126E7-6150-40D5-9F04-5C59C7B1C46F}
 		{E185CCFD-5CD7-4561-B87F-76C652AA830F} = {3B9126E7-6150-40D5-9F04-5C59C7B1C46F}
 		{C54AF219-A30C-4CF3-8384-EB8133467A31} = {3B9126E7-6150-40D5-9F04-5C59C7B1C46F}
+		{03D4CB98-2489-4CB9-AA26-5D99A909B7C5} = {1CA959D9-AF2F-426A-9B7F-D66DC0E7BCFF}
+		{05A23D75-901A-4084-AD96-79FD313721B4} = {F55BC09E-D3AD-4466-8BED-7B7A0F3DA637}
+		{68E0CCF6-7378-452E-98EC-C7EF20AA4E07} = {F31FD803-4856-45FE-95F7-43E7018B45F5}
+		{7F467DBA-8653-4C35-B31B-CC2F40B48B38} = {F55BC09E-D3AD-4466-8BED-7B7A0F3DA637}
+		{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA} = {1CA959D9-AF2F-426A-9B7F-D66DC0E7BCFF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {905F6436-9DFE-4574-A663-821E72EB9AB2}

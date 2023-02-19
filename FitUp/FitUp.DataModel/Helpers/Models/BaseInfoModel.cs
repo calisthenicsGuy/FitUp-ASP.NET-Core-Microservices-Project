@@ -1,7 +1,7 @@
-﻿namespace FitUp.ExercisesService.DataModel.Helpers.Models
+﻿namespace FitUp.DataModel.Helpers.Models
 {
 
-    using FitUp.ExercisesService.DataModel.Helpers.Models.Interfaces;
+    using FitUp.DataModel.Helpers.Models.Interfaces;
 
     public class BaseInfoModel<TKey> : IBaseModel<TKey>, IInfoModel
     {
