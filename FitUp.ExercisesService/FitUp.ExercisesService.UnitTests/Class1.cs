@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FitUp.ExercisesService.DAL
+namespace FitUp.ExercisesService.UnitTests
 {
     internal class Class1
     {

@@ -1,0 +1,25 @@
+﻿namespace FitUp.ExercisesService.DataModel.Models
+{
+    using System.ComponentModel.DataAnnotations;
+    using FitUp.ExercisesService.DataModel.Helpers.Models;
+
+    using static FitUp.ExercisesService.DataModel.Helpers.Constants.DataValidation.MuscleGroup;
+
+    public class MuscleGroup : BaseInfoModel<int>
+    {
+        public MuscleGroup()
+        {
+            this.ExerciseMuscleGroups = new HashSet<ExerciseMuscleGroup>();
+        }
+
+        [MaxLength(NameMaxLength)]
+        public string Name { get; set; }
+
+        public byte[] Image { get; set; }
+
+        [MaxLength(DescriptionMaxLength)]
+        public string Description { get; set; }
+
+        public virtual ICollection<ExerciseMuscleGroup> ExerciseMuscleGroups { get; set; }
+    }
+}
