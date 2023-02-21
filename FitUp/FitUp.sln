@@ -17,19 +17,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitUp.ExercisesService.Unit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FitUp", "FitUp", "{1CA959D9-AF2F-426A-9B7F-D66DC0E7BCFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp", "FitUp\FitUp\FitUp.csproj", "{03D4CB98-2489-4CB9-AA26-5D99A909B7C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitUp", "FitUp\FitUp\FitUp.csproj", "{03D4CB98-2489-4CB9-AA26-5D99A909B7C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FitUp.ProgramsService", "FitUp.ProgramsService", "{F55BC09E-D3AD-4466-8BED-7B7A0F3DA637}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FitUp.ProgressionService", "FitUp.ProgressionService", "{F31FD803-4856-45FE-95F7-43E7018B45F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ProgramsService", "FitUp.ProgramsService\FitUp.ProgramsService\FitUp.ProgramsService.csproj", "{05A23D75-901A-4084-AD96-79FD313721B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitUp.ProgramsService", "FitUp.ProgramsService\FitUp.ProgramsService\FitUp.ProgramsService.csproj", "{05A23D75-901A-4084-AD96-79FD313721B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ProgressionService", "FitUp.ProgressionService\FitUp.ProgressionService\FitUp.ProgressionService.csproj", "{68E0CCF6-7378-452E-98EC-C7EF20AA4E07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitUp.ProgressionService", "FitUp.ProgressionService\FitUp.ProgressionService\FitUp.ProgressionService.csproj", "{68E0CCF6-7378-452E-98EC-C7EF20AA4E07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ProgramsService.DataModel", "FitUp.ProgramsService.DataModel\FitUp.ProgramsService.DataModel.csproj", "{7F467DBA-8653-4C35-B31B-CC2F40B48B38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.DataModel", "FitUp\FitUp.DataModel\FitUp.DataModel.csproj", "{C0D69EA0-B715-4161-9E9C-F1C216A698B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.DataModel", "FitUp.DataModel\FitUp.DataModel.csproj", "{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitUp.ProgramsService.DataModel", "FitUp.ProgramsService\FitUp.ProgramsService.DataModel\FitUp.ProgramsService.DataModel.csproj", "{B2E9ABF3-65DC-4015-9D7C-B394473748BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,14 +69,14 @@ Global
 		{68E0CCF6-7378-452E-98EC-C7EF20AA4E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68E0CCF6-7378-452E-98EC-C7EF20AA4E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68E0CCF6-7378-452E-98EC-C7EF20AA4E07}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F467DBA-8653-4C35-B31B-CC2F40B48B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F467DBA-8653-4C35-B31B-CC2F40B48B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F467DBA-8653-4C35-B31B-CC2F40B48B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F467DBA-8653-4C35-B31B-CC2F40B48B38}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D69EA0-B715-4161-9E9C-F1C216A698B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D69EA0-B715-4161-9E9C-F1C216A698B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D69EA0-B715-4161-9E9C-F1C216A698B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D69EA0-B715-4161-9E9C-F1C216A698B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E9ABF3-65DC-4015-9D7C-B394473748BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E9ABF3-65DC-4015-9D7C-B394473748BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E9ABF3-65DC-4015-9D7C-B394473748BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E9ABF3-65DC-4015-9D7C-B394473748BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,8 +90,8 @@ Global
 		{03D4CB98-2489-4CB9-AA26-5D99A909B7C5} = {1CA959D9-AF2F-426A-9B7F-D66DC0E7BCFF}
 		{05A23D75-901A-4084-AD96-79FD313721B4} = {F55BC09E-D3AD-4466-8BED-7B7A0F3DA637}
 		{68E0CCF6-7378-452E-98EC-C7EF20AA4E07} = {F31FD803-4856-45FE-95F7-43E7018B45F5}
-		{7F467DBA-8653-4C35-B31B-CC2F40B48B38} = {F55BC09E-D3AD-4466-8BED-7B7A0F3DA637}
-		{6A7C1902-8EA6-4314-AFFA-0DFF5D14F5BA} = {1CA959D9-AF2F-426A-9B7F-D66DC0E7BCFF}
+		{C0D69EA0-B715-4161-9E9C-F1C216A698B3} = {1CA959D9-AF2F-426A-9B7F-D66DC0E7BCFF}
+		{B2E9ABF3-65DC-4015-9D7C-B394473748BD} = {F55BC09E-D3AD-4466-8BED-7B7A0F3DA637}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {905F6436-9DFE-4574-A663-821E72EB9AB2}

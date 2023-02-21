@@ -16,8 +16,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\FitUp.DataModel\FitUp.DataModel.csproj" />
-  </ItemGroup>
-
 </Project>
