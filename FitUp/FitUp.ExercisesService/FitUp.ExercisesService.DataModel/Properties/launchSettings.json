@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FitUp.ExercisesService.DataModel": {
+      "commandName": "Project",
+      "sqlDebugging": true,
+      "jsWebView2Debugging": true
+    }
+  }
+}

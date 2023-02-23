@@ -1,4 +1,4 @@
-﻿namespace FitUp.ExercisesService.DataModel.Models
+﻿namespace FitUp.ProgramsService.DataModel.Models
 {
     using System.ComponentModel.DataAnnotations;
     using FitUp.DataModel.Helpers.Models;

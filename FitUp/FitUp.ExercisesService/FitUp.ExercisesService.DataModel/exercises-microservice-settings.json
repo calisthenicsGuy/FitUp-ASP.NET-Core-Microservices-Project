@@ -1,6 +1,6 @@
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=.;Database=ExercisesService;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;Encrypt=False;",
+    "DefaultConnection": "Server=DESKTOP-PSOL09R;Database=FitUp-ExercisesService;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;Encrypt=False;",
     "DbContextConnection": "Server=(localdb)\\mssqllocaldb;Database=ExercisesService_DbContext;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
 }

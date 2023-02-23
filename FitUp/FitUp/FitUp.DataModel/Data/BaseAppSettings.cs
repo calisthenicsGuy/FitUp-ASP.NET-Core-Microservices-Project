@@ -2,17 +2,18 @@
 {
     using Newtonsoft.Json;
 
-    public class AppSettings
+    public abstract class BaseAppSettings
     {
-        public AppSettings(string fileName, string absoluteFilePath = null)
+        public BaseAppSettings(string fileName)
         {
             this.FileName = fileName;
-            this.AbsoluteFilePath = absoluteFilePath;
         }
 
         public string FileName { get; set; }
 
-        public string AbsoluteFilePath { get; set; }
+        public string DefaultConnection => this.ConnectionStrings().DefaultConnection;
+
+        public string DbContextConnection => this.ConnectionStrings().DbContextConnection;
 
         public AppSettingsSchema GetApplicationSettings()
         {
@@ -25,12 +26,6 @@
             AppSettingsSchema appSettingsSchema = this.GetApplicationSettings();
             return appSettingsSchema.ConnectionStrings;
         }
-
-        public string DefaultConnection()
-            => this.ConnectionStrings().DefaultConnection;
-
-        public string DbContextConnection()
-            => this.ConnectionStrings().DbContextConnection;
     }
 
     public class AppSettingsSchema

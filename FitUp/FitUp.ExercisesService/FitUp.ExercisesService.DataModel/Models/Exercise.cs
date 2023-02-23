@@ -4,7 +4,7 @@
     using FitUp.DataModel.Helpers.Models;
     using FitUp.ExercisesService.DataModel.Models.Enums;
 
-    using static FitUp.ExercisesService.DataModel.Helpers.Constants.DataValidation.Exercise;
+    using static FitUp.DataModel.Helpers.Constants.DataValidation.Exercise;
 
     public class Exercise : FullModel<int>
     {

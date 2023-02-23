@@ -9,52 +9,18 @@
         private static readonly MethodInfo SetIsDeletedQueryFilterMethod = 
             DbContextType.GetMethod(nameof(SetIsDeletedQueryFilter), BindingFlags.NonPublic | BindingFlags.Static);
 
-        private string microserviceFileBaneSettings;
-
-        public FitUpDbContext(string microserviceFileNameSettings, Type dbContextType)
+        public FitUpDbContext(Type dbContextType)
         {
             DbContextType = dbContextType;
-            this.MicroserviceFileNameSettings = microserviceFileNameSettings;
         }
 
         public static Type DbContextType { get; set; }
-
-        public string MicroserviceFileNameSettings
-        {
-            get => this.microserviceFileBaneSettings;
-            set
-            {
-                if (String.IsNullOrWhiteSpace(value))
-                {
-                    throw new ArgumentException("Microservice file name for settings cannot be null white space.");
-                }
-
-                if (!value.Contains(".json"))
-                {
-                    value = value + ".json";
-                }
-
-                this.microserviceFileBaneSettings = value;
-            }
-        }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
             => this.SaveChangesAsync(true, cancellationToken);
 
         public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
             => base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                AppSettings appSettings = new AppSettings(this.MicroserviceFileNameSettings);
-
-                optionsBuilder.UseSqlServer(appSettings.DefaultConnection());
-            }
-
-            base.OnConfiguring(optionsBuilder);
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

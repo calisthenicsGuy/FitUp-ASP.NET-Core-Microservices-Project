@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\FitUp\FitUp.DataModel\FitUp.DataModel.csproj" />
+  </ItemGroup>
+
 </Project>

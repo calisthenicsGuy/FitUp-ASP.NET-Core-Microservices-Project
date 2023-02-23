@@ -2,7 +2,8 @@
 {
     using System.ComponentModel.DataAnnotations;
     using FitUp.DataModel.Helpers.Models;
-
+    using FitUp.ExercisesService.DataModel.Models;
+    using FitUp.ProgramsService.DataModel.Models.Enums;
     using static FitUp.ProgramsService.DataModel.Helpers.Constants.DataValidation.Exercise;
 
     public class Exercise : FullModel<int>
@@ -15,10 +16,14 @@
 
         public byte[] Video { get; set; }
 
-        //public DifficultLevel DifficultLevel { get; set; }
+        public int Sets { get; set; }
 
-        //public virtual ICollection<ExerciseMuscleGroup> ExerciseMuscleGroups { get; set; }
+        public string RepRange { get; set; }
 
-        //public virtual ICollection<ExerciseEquipment> ExerciseEquipments { get; set; }
+        public DifficultLevel DifficultLevel { get; set; }
+
+        public virtual ICollection<ExerciseMuscleGroup> ExerciseMuscleGroups { get; set; }
+
+        public virtual ICollection<ExerciseEquipment> ExerciseEquipments { get; set; }
     }
 }
